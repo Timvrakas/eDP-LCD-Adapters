@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,8 +22,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -35,8 +35,8 @@
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -74,17 +74,13 @@
 <smd name="P$15" x="-5.7" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$16" x="-6.1" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$17" x="-6.5" y="0" dx="0.2" dy="0.9" layer="1"/>
-<smd name="P$18" x="-6.9" y="0" dx="0.2" dy="0.9" layer="1"/>
-<smd name="P$19" x="-7.3" y="0" dx="0.2" dy="0.9" layer="1"/>
+<smd name="P$18" x="-6.9" y="0" dx="1" dy="0.9" layer="1"/>
+<smd name="P$19" x="-7.3" y="0" dx="1" dy="0.9" layer="1"/>
 <smd name="P$20" x="-7.7" y="0" dx="0.2" dy="0.9" layer="1"/>
-<smd name="P$21" x="-8.1" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$22" x="-8.5" y="0" dx="0.2" dy="0.9" layer="1"/>
-<smd name="P$23" x="-8.9" y="0" dx="0.2" dy="0.9" layer="1"/>
+<smd name="P$23" x="-8.9" y="0" dx="1" dy="0.9" layer="1"/>
 <smd name="P$24" x="-9.3" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$25" x="-9.7" y="0" dx="0.2" dy="0.9" layer="1"/>
-<smd name="P$26" x="-10.1" y="0" dx="0.2" dy="0.9" layer="1"/>
-<smd name="P$27" x="-10.5" y="0" dx="0.2" dy="0.9" layer="1"/>
-<smd name="P$28" x="-10.9" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$29" x="-11.3" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$30" x="-11.7" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$31" x="-12.1" y="0" dx="0.2" dy="0.9" layer="1"/>
@@ -93,9 +89,8 @@
 <smd name="P$34" x="-13.3" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$35" x="-13.7" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$36" x="-14.1" y="0" dx="0.2" dy="0.9" layer="1"/>
-<smd name="P$37" x="-14.5" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="P$38" x="-14.9" y="0" dx="0.2" dy="0.9" layer="1"/>
-<smd name="P$39" x="-15.3" y="0" dx="0.2" dy="0.9" layer="1"/>
+<smd name="P$39" x="-15.3" y="0" dx="1" dy="0.9" layer="1"/>
 <smd name="P$40" x="-15.7" y="0" dx="0.2" dy="0.9" layer="1"/>
 <smd name="AUX1" x="0.8" y="0" dx="0.55" dy="0.9" layer="1"/>
 <smd name="AUX2" x="-16.6" y="0" dx="0.55" dy="0.9" layer="1"/>
@@ -103,6 +98,9 @@
 <hole x="-17.35" y="-1.55" drill="0.8"/>
 <smd name="GND-PAD2" x="2.47" y="-2.675" dx="0.56" dy="2.95" layer="1"/>
 <smd name="GND-PAD1" x="-18.27" y="-2.675" dx="0.56" dy="2.95" layer="1"/>
+<rectangle x1="-14.65" y1="-0.45" x2="-14.35" y2="0.45" layer="41"/>
+<rectangle x1="-11.05" y1="-0.45" x2="-9.95" y2="0.45" layer="41"/>
+<rectangle x1="-8.25" y1="-0.45" x2="-7.95" y2="0.45" layer="41"/>
 </package>
 <package name="I-PEX-20525-130E-02">
 <smd name="1" x="-5.8" y="-0.4" dx="0.8" dy="0.2" layer="1" rot="R90"/>
@@ -145,7 +143,6 @@
 <smd name="BODY1" x="8.445" y="-3.525" dx="0.71" dy="1.85" layer="1"/>
 </package>
 <package name="ACES-50203-040">
-<smd name="P$1" x="-9.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$2" x="-9.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$3" x="-8.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$4" x="-8.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
@@ -163,28 +160,24 @@
 <smd name="P$16" x="-2.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$17" x="-1.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$18" x="-1.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$19" x="-0.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$20" x="-0.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$19" x="-0.75" y="-0.65" dx="1.3" dy="1.25" layer="1" rot="R270"/>
+<smd name="P$20" x="-0.25" y="-0.65" dx="1.3" dy="1.25" layer="1" rot="R270"/>
 <smd name="P$21" x="0.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$22" x="0.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$23" x="1.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$24" x="1.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$25" x="2.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$24" x="1.75" y="-0.65" dx="1.3" dy="1.25" layer="1" rot="R270"/>
+<smd name="P$25" x="2.25" y="-0.65" dx="1.3" dy="1.25" layer="1" rot="R270"/>
 <smd name="P$26" x="2.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$27" x="3.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$28" x="3.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$29" x="4.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$30" x="4.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$29" x="4.25" y="-0.65" dx="1.3" dy="1.25" layer="1" rot="R270"/>
+<smd name="P$30" x="4.75" y="-0.65" dx="1.3" dy="1.25" layer="1" rot="R270"/>
 <smd name="P$31" x="5.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$32" x="5.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$33" x="6.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$34" x="6.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$35" x="7.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <smd name="P$36" x="7.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$37" x="8.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$38" x="8.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$37" x="8.25" y="-0.65" dx="1.3" dy="1.25" layer="1" rot="R270"/>
+<smd name="P$38" x="8.75" y="-0.65" dx="1.3" dy="1.25" layer="1" rot="R270"/>
 <smd name="P$39" x="9.25" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$40" x="9.75" y="-0.65" dx="1.3" dy="0.25" layer="1" rot="R270"/>
 <hole x="12.05" y="-2.6" drill="1.1"/>
 <hole x="-12.05" y="-2.6" drill="1.1"/>
 <smd name="P$41" x="-13.875" y="-6.5" dx="3.4" dy="1.55" layer="1" rot="R270"/>
@@ -193,6 +186,8 @@
 <smd name="P$44" x="-3.75" y="-6.7" dx="3" dy="2" layer="1" rot="R90" cream="no"/>
 <smd name="P$45" x="3.75" y="-6.7" dx="3" dy="2" layer="1" rot="R90" cream="no"/>
 <smd name="P$46" x="9.25" y="-6.7" dx="3" dy="2" layer="1" rot="R90" cream="no"/>
+<rectangle x1="0.5" y1="-1.3" x2="1" y2="0" layer="41"/>
+<rectangle x1="6.5" y1="-1.3" x2="7.5" y2="0.05" layer="41"/>
 </package>
 <package name="QFN32">
 <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.05" layer="21"/>
@@ -287,13 +282,10 @@
 <pin name="VCC1" x="58.42" y="5.08" length="middle" rot="R270"/>
 <pin name="VCC2" x="55.88" y="5.08" length="middle" rot="R270"/>
 <pin name="VCC3" x="53.34" y="5.08" length="middle" rot="R270"/>
-<pin name="NC0" x="50.8" y="5.08" length="middle" rot="R270"/>
 <pin name="GND0" x="48.26" y="5.08" length="middle" rot="R270"/>
 <pin name="GND1" x="45.72" y="5.08" length="middle" rot="R270"/>
 <pin name="GND2" x="43.18" y="5.08" length="middle" rot="R270"/>
 <pin name="HPD" x="40.64" y="5.08" length="middle" rot="R270"/>
-<pin name="PWM-IN" x="38.1" y="5.08" length="middle" rot="R270"/>
-<pin name="PWM-OUT" x="35.56" y="5.08" length="middle" rot="R270"/>
 <pin name="BL6" x="27.94" y="5.08" length="middle" rot="R270"/>
 <pin name="BL7" x="30.48" y="5.08" length="middle" rot="R270"/>
 <pin name="BL5" x="25.4" y="5.08" length="middle" rot="R270"/>
@@ -302,8 +294,6 @@
 <pin name="BL2" x="17.78" y="5.08" length="middle" rot="R270"/>
 <pin name="BL1" x="15.24" y="5.08" length="middle" rot="R270"/>
 <pin name="BL0" x="12.7" y="5.08" length="middle" rot="R270"/>
-<pin name="NC2" x="10.16" y="5.08" length="middle" rot="R270"/>
-<pin name="NC1" x="33.02" y="5.08" length="middle" rot="R270"/>
 <pin name="BL+0" x="7.62" y="5.08" length="middle" rot="R270"/>
 <pin name="BL+1" x="5.08" y="5.08" length="middle" rot="R270"/>
 <pin name="BL+2" x="2.54" y="5.08" length="middle" rot="R270"/>
@@ -349,7 +339,6 @@
 <text x="-17.78" y="43.18" size="1.27" layer="94">I-PEX Apple Retina LCD</text>
 </symbol>
 <symbol name="ACES-EDP-40">
-<pin name="NC0" x="0" y="5.08" length="middle" direction="nc" rot="R270"/>
 <pin name="HS-GND0" x="2.54" y="5.08" length="middle" direction="hiz" rot="R270"/>
 <pin name="L3-" x="5.08" y="5.08" length="middle" direction="hiz" rot="R270"/>
 <pin name="L3+" x="7.62" y="5.08" length="middle" direction="hiz" rot="R270"/>
@@ -370,7 +359,6 @@
 <pin name="VCC1" x="45.72" y="5.08" length="middle" direction="pwr" rot="R270"/>
 <pin name="VCC2" x="48.26" y="5.08" length="middle" direction="pwr" rot="R270"/>
 <pin name="VCC3" x="50.8" y="5.08" length="middle" direction="pwr" rot="R270"/>
-<pin name="NC/TEST" x="53.34" y="5.08" length="middle" rot="R270"/>
 <pin name="GND0" x="55.88" y="5.08" length="middle" direction="pwr" rot="R270"/>
 <pin name="GND1" x="58.42" y="5.08" length="middle" direction="pwr" rot="R270"/>
 <pin name="GND2" x="60.96" y="5.08" length="middle" direction="pwr" rot="R270"/>
@@ -382,13 +370,10 @@
 <pin name="BKLT-GND3" x="76.2" y="5.08" length="middle" direction="pwr" rot="R270"/>
 <pin name="BKLT-EN" x="78.74" y="5.08" length="middle" rot="R270"/>
 <pin name="BKLT-PWM" x="81.28" y="5.08" length="middle" rot="R270"/>
-<pin name="NC1" x="83.82" y="5.08" length="middle" direction="nc" rot="R270"/>
-<pin name="NC2" x="86.36" y="5.08" length="middle" direction="nc" rot="R270"/>
 <pin name="BKLT-PWR0" x="88.9" y="5.08" length="middle" direction="pwr" rot="R270"/>
 <pin name="BKLT-PWR1" x="91.44" y="5.08" length="middle" direction="pwr" rot="R270"/>
 <pin name="BKLT-PWR2" x="93.98" y="5.08" length="middle" direction="pwr" rot="R270"/>
 <pin name="BKLT-PWR3" x="96.52" y="5.08" length="middle" direction="pwr" rot="R270"/>
-<pin name="NC3" x="99.06" y="5.08" length="middle" direction="nc" rot="R270"/>
 <wire x1="-2.54" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
 <wire x1="101.6" y1="0" x2="101.6" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="101.6" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
@@ -457,7 +442,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LP129QE-EDP-40">
+<deviceset name="LP129QE-EDP-40" prefix="F">
 <gates>
 <gate name="G$1" symbol="LP129QE-EDP-IPEX" x="0" y="0"/>
 </gates>
@@ -496,11 +481,6 @@
 <connect gate="G$1" pin="L2-" pad="P$5"/>
 <connect gate="G$1" pin="L3+" pad="P$3"/>
 <connect gate="G$1" pin="L3-" pad="P$2"/>
-<connect gate="G$1" pin="NC0" pad="P$21"/>
-<connect gate="G$1" pin="NC1" pad="P$28"/>
-<connect gate="G$1" pin="NC2" pad="P$37"/>
-<connect gate="G$1" pin="PWM-IN" pad="P$26"/>
-<connect gate="G$1" pin="PWM-OUT" pad="P$27"/>
 <connect gate="G$1" pin="VCC0" pad="P$17"/>
 <connect gate="G$1" pin="VCC1" pad="P$18"/>
 <connect gate="G$1" pin="VCC2" pad="P$19"/>
@@ -558,7 +538,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="EDP-40PIN-ACES">
+<deviceset name="EDP-40PIN-ACES" prefix="F">
 <gates>
 <gate name="G$1" symbol="ACES-EDP-40" x="-48.26" y="0"/>
 </gates>
@@ -597,11 +577,6 @@
 <connect gate="G$1" pin="L2-" pad="P$6"/>
 <connect gate="G$1" pin="L3+" pad="P$4"/>
 <connect gate="G$1" pin="L3-" pad="P$3"/>
-<connect gate="G$1" pin="NC/TEST" pad="P$22"/>
-<connect gate="G$1" pin="NC0" pad="P$1"/>
-<connect gate="G$1" pin="NC1" pad="P$34"/>
-<connect gate="G$1" pin="NC2" pad="P$35"/>
-<connect gate="G$1" pin="NC3" pad="P$40"/>
 <connect gate="G$1" pin="VCC0" pad="P$18"/>
 <connect gate="G$1" pin="VCC1" pad="P$19"/>
 <connect gate="G$1" pin="VCC2" pad="P$20"/>
@@ -613,7 +588,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC34844-LED-DRIVER">
+<deviceset name="MC34844-LED-DRIVER" prefix="U">
 <gates>
 <gate name="G$1" symbol="MC34844-LED-DRIVER" x="0" y="-7.62"/>
 </gates>
@@ -660,7 +635,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ASPI-8040S-INCUCTOR">
+<deviceset name="ASPI-8040S-INCUCTOR" prefix="I">
 <gates>
 <gate name="G$1" symbol="INDUCTIOR-ASPI-8040S" x="0" y="0"/>
 </gates>
@@ -676,7 +651,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SK38A-DIODE">
+<deviceset name="SK38A-DIODE" prefix="D">
 <gates>
 <gate name="G$1" symbol="DIODE-S" x="-2.54" y="0"/>
 </gates>
