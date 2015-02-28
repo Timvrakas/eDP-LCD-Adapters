@@ -1,0 +1,20 @@
+[Eagle]
+Version="07 02 00"
+Platform="Linux"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/home/timv/eagle/LCD Adapters/lbr/LCD Connectors.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="56 24 1197 494"
+State=2
+Number=0
+
+[Desktop]
+Screen="1366 768"
+Window="Win_1"
