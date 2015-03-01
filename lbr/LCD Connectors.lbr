@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -254,6 +254,63 @@
 <wire x1="-0.3175" y1="0" x2="-0.3175" y2="1.27" width="0.254" layer="21"/>
 <wire x1="-0.3175" y1="0" x2="-0.9525" y2="0" width="0.254" layer="21"/>
 </package>
+<package name="MOLEX-47272-0001">
+<pad name="GND1" x="0" y="0" drill="2.2" diameter="2.8"/>
+<pad name="GND3" x="16.5" y="0" drill="2.2" diameter="2.8"/>
+<pad name="GND2" x="0" y="-6.78" drill="1.7" diameter="2.3"/>
+<pad name="GND4" x="16.5" y="-6.78" drill="1.7" diameter="2.3"/>
+<smd name="P$5" x="13.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$6" x="13.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$7" x="12.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$8" x="12.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$9" x="11.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$10" x="11.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$11" x="10.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$12" x="10.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$13" x="9.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$14" x="9.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$15" x="8.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$16" x="8.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$17" x="7.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$18" x="7.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$19" x="6.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$20" x="6.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$21" x="5.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$22" x="5.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$23" x="4.75" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<smd name="P$24" x="4.25" y="2.6" dx="0.28" dy="2.4" layer="1"/>
+<wire x1="0" y1="-10.96" x2="16.5" y2="-10.96" width="0.127" layer="20"/>
+<wire x1="0" y1="-1.7" x2="0" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-1.7" x2="16.5" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="0" y1="-8.3" x2="0" y2="-12" width="0.127" layer="21"/>
+<wire x1="0" y1="-12" x2="16.5" y2="-12" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-12" x2="16.5" y2="-8.3" width="0.127" layer="21"/>
+<wire x1="16.5" y1="1.7" x2="16.5" y2="2.6" width="0.127" layer="21"/>
+<wire x1="16.5" y1="2.6" x2="14.4" y2="2.6" width="0.127" layer="21"/>
+<wire x1="0" y1="1.7" x2="0" y2="2.6" width="0.127" layer="21"/>
+<wire x1="0" y1="2.6" x2="3.6" y2="2.6" width="0.127" layer="21"/>
+</package>
+<package name="2X2-DFN">
+<smd name="4" x="0" y="0" dx="0.25" dy="0.3" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.25" dy="0.3" layer="1"/>
+<smd name="2" x="1" y="0" dx="0.25" dy="0.3" layer="1"/>
+<smd name="1" x="1.5" y="0" dx="0.25" dy="0.3" layer="1"/>
+<smd name="5" x="0" y="-1.7" dx="0.25" dy="0.3" layer="1"/>
+<smd name="6" x="0.5" y="-1.7" dx="0.25" dy="0.3" layer="1"/>
+<smd name="7" x="1" y="-1.7" dx="0.25" dy="0.3" layer="1"/>
+<smd name="8" x="1.5" y="-1.7" dx="0.25" dy="0.3" layer="1"/>
+<smd name="CENTER" x="0.75" y="-0.85" dx="0.9" dy="1.5" layer="1" rot="R90"/>
+<wire x1="-0.3" y1="0.25" x2="-0.3" y2="-1.95" width="0.1" layer="21"/>
+<wire x1="-0.3" y1="-1.95" x2="1.8" y2="-1.95" width="0.1" layer="21"/>
+<wire x1="1.8" y1="-1.95" x2="1.8" y2="0.25" width="0.1" layer="21"/>
+<wire x1="1.8" y1="0.25" x2="-0.3" y2="0.25" width="0.1" layer="21"/>
+</package>
+<package name="ASPI-4030S">
+<smd name="P$1" x="0" y="0" dx="1.1" dy="3.4" layer="1"/>
+<smd name="P$2" x="3" y="0" dx="1.1" dy="3.4" layer="1"/>
+<wire x1="0" y1="1.9" x2="3" y2="1.9" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.9" x2="3.1" y2="-1.9" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LP129QE-EDP-IPEX">
@@ -439,6 +496,45 @@
 <wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="DP-SINK">
+<wire x1="0" y1="0" x2="53.34" y2="0" width="0.254" layer="94"/>
+<wire x1="53.34" y1="0" x2="53.34" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="3-" x="50.8" y="5.08" visible="pin" length="middle" direction="in" rot="R270"/>
+<pin name="GND0" x="48.26" y="5.08" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R270"/>
+<pin name="3+" x="45.72" y="5.08" visible="pin" length="middle" direction="in" rot="R270"/>
+<pin name="2-" x="43.18" y="5.08" visible="pin" length="middle" direction="in" rot="R270"/>
+<pin name="GND1" x="40.64" y="5.08" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R270"/>
+<pin name="2+" x="38.1" y="5.08" visible="pin" length="middle" direction="in" rot="R270"/>
+<pin name="1-" x="35.56" y="5.08" visible="pin" length="middle" direction="in" rot="R270"/>
+<pin name="GND2" x="33.02" y="5.08" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R270"/>
+<pin name="1+" x="30.48" y="5.08" visible="pin" length="middle" direction="in" rot="R270"/>
+<pin name="0-" x="27.94" y="5.08" visible="pin" length="middle" direction="in" rot="R270"/>
+<pin name="GND3" x="25.4" y="5.08" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R270"/>
+<pin name="0+" x="22.86" y="5.08" visible="pin" length="middle" direction="in" rot="R270"/>
+<pin name="CONFIG1" x="20.32" y="5.08" visible="pin" length="middle" rot="R270"/>
+<pin name="CONFIG2" x="17.78" y="5.08" visible="pin" length="middle" rot="R270"/>
+<pin name="AUX+" x="15.24" y="5.08" visible="pin" length="middle" rot="R270"/>
+<pin name="GND4" x="12.7" y="5.08" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R270"/>
+<pin name="AUX-" x="10.16" y="5.08" visible="pin" length="middle" rot="R270"/>
+<pin name="HPD" x="7.62" y="5.08" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="PWR_RTN" x="5.08" y="5.08" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="PWR" x="2.54" y="5.08" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND_CON" x="-5.08" y="-15.24" visible="pin" length="middle" direction="pwr" swaplevel="1"/>
+</symbol>
+<symbol name="AOZ1281-BUCK">
+<wire x1="0" y1="5.08" x2="0" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="25.4" x2="20.32" y2="25.4" width="0.254" layer="94"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="5.08" width="0.254" layer="94"/>
+<wire x1="20.32" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<pin name="EN" x="-5.08" y="15.24" visible="pin" length="middle"/>
+<pin name="VIN" x="5.08" y="30.48" visible="pin" length="middle" rot="R270"/>
+<pin name="BST" x="25.4" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="LX" x="25.4" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="FB" x="25.4" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="5.08" y="0" visible="pin" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -660,6 +756,61 @@
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DP-SINK">
+<gates>
+<gate name="G$1" symbol="DP-SINK" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="MOLEX-47272-0001">
+<connects>
+<connect gate="G$1" pin="0+" pad="P$16"/>
+<connect gate="G$1" pin="0-" pad="P$14"/>
+<connect gate="G$1" pin="1+" pad="P$13"/>
+<connect gate="G$1" pin="1-" pad="P$11"/>
+<connect gate="G$1" pin="2+" pad="P$10"/>
+<connect gate="G$1" pin="2-" pad="P$8"/>
+<connect gate="G$1" pin="3+" pad="P$7"/>
+<connect gate="G$1" pin="3-" pad="P$5"/>
+<connect gate="G$1" pin="AUX+" pad="P$19"/>
+<connect gate="G$1" pin="AUX-" pad="P$21"/>
+<connect gate="G$1" pin="CONFIG1" pad="P$17"/>
+<connect gate="G$1" pin="CONFIG2" pad="P$18"/>
+<connect gate="G$1" pin="GND0" pad="P$6"/>
+<connect gate="G$1" pin="GND1" pad="P$9"/>
+<connect gate="G$1" pin="GND2" pad="P$12"/>
+<connect gate="G$1" pin="GND3" pad="P$15"/>
+<connect gate="G$1" pin="GND4" pad="P$20"/>
+<connect gate="G$1" pin="GND_CON" pad="GND1 GND2 GND3 GND4"/>
+<connect gate="G$1" pin="HPD" pad="P$22"/>
+<connect gate="G$1" pin="PWR" pad="P$24"/>
+<connect gate="G$1" pin="PWR_RTN" pad="P$23"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AOZ1281-BUCK">
+<gates>
+<gate name="G$1" symbol="AOZ1281-BUCK" x="-10.16" y="-15.24"/>
+</gates>
+<devices>
+<device name="" package="2X2-DFN">
+<connects>
+<connect gate="G$1" pin="BST" pad="8"/>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="6 7 CENTER"/>
+<connect gate="G$1" pin="LX" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="2 3"/>
 </connects>
 <technologies>
 <technology name=""/>
